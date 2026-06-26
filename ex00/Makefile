@@ -2,10 +2,10 @@ NAME = BrainZ
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -g3 -std=c++98
 
-SRCS = main.cpp \
-	Zombie.cpp \
-	newZombie.cpp \
-	randomChump.cpp \
+SRCS = srcs/main.cpp \
+	srcs/Zombie.cpp \
+	srcs/newZombie.cpp \
+	srcs/randomChump.cpp \
 
 OBJS = $(SRCS:.cpp=.o)
 

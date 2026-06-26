@@ -6,7 +6,7 @@
 /*   By: pmalumba <pmalumba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/25 19:20:33 by pmalumba          #+#    #+#             */
-/*   Updated: 2026/06/25 19:20:34 by pmalumba         ###   ########.fr       */
+/*   Updated: 2026/06/26 15:50:50 by pmalumba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@ private:
     std::string _name;
 public:
     Zombie(std::string name);
+    std::string getName();
     void annonce();
     ~Zombie();
 };
