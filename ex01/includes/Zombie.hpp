@@ -3,16 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   Zombie.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pmalumba <pmalumba@student.42.fr>          +#+  +:+       +#+        */
+/*   By: kimidhuama <kimidhuama@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/26 16:31:08 by pmalumba          #+#    #+#             */
-/*   Updated: 2026/06/26 18:49:37 by pmalumba         ###   ########.fr       */
+/*   Updated: 2026/06/27 00:20:24 by kimidhuama       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef ZOMBIE_HPP
 #define ZOMBIE_HPP
 #include <string>
+#include <iomanip>
 #include <iostream>
 #include <new>
 
