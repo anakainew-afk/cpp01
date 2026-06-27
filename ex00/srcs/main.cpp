@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pmalumba <pmalumba@student.42.fr>          +#+  +:+       +#+        */
+/*   By: kimidhuama <kimidhuama@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/25 19:20:16 by pmalumba          #+#    #+#             */
-/*   Updated: 2026/06/26 16:23:27 by pmalumba         ###   ########.fr       */
+/*   Updated: 2026/06/27 00:08:06 by kimidhuama       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,12 +16,14 @@ int main(){
     
     Zombie  *heapZombie;
 
-    heapZombie = newZombie("Bart");
-    heapZombie->annonce();
-    delete heapZombie;
+    randomChump("Foo");
     
     std::cout << std::endl;
-
-    randomChump("Foo");
+    
+    heapZombie = newZombie("");
+    if (!heapZombie)
+        return 1;
+    heapZombie->annonce();
+    delete heapZombie;
     return 0;
 }
