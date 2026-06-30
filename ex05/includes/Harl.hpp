@@ -6,7 +6,7 @@
 /*   By: pmalumba <pmalumba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/27 18:32:10 by pmalumba          #+#    #+#             */
-/*   Updated: 2026/06/27 18:39:53 by pmalumba         ###   ########.fr       */
+/*   Updated: 2026/06/30 19:09:25 by pmalumba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ class Harl{
 private:
     void debug();
     void info();
-    void warnig();
+    void warning();
     void error();
 public:
     void complain(std::string level);
