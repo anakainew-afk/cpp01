@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pmalumba <pmalumba@student.42.fr>          +#+  +:+       +#+        */
+/*   By: kimidhuama <kimidhuama@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/27 18:40:55 by pmalumba          #+#    #+#             */
-/*   Updated: 2026/06/30 20:18:15 by pmalumba         ###   ########.fr       */
+/*   Updated: 2026/07/01 07:04:58 by kimidhuama       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,11 @@
 
 int main(int ac, char **av){
 
+    Harl obj;
+
     if (ac != 2)
         return 1;
     std::string str(av[1]);
-    switch (str){
-        
-    }
+    obj.complain(str);
     return 0;
 }
